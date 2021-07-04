@@ -1,0 +1,1 @@
+export const baseUrl = "https://recruit-api.yonple.com/recruit/523062/a-posts"

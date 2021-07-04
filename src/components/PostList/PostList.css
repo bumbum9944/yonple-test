@@ -1,0 +1,40 @@
+.post-list {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.post-wrap {
+  width: 60vw;
+  border: solid 1px black;
+  padding: 1vw;
+}
+
+.post-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw 1vw 2vw 1vw;
+}
+
+.post-item:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.post-item-wrap {
+  width: 100%;
+}
+
+.post-item-number {
+  color: #90CBFB;
+  font-weight: bold;
+}
+
+.post-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

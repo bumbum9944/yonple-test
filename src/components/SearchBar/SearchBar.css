@@ -1,0 +1,23 @@
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 10vh 0 10vh 0;
+}
+
+.search-bar-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  padding: 1vw ;
+  border: black solid 1px;
+}
+
+.search-bar-input {
+  border: solid black 0;
+  width: 100%;
+  font-size: 1vw;
+}
+.search-bar-input:focus {
+  outline: none;
+}

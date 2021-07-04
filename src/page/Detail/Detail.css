@@ -1,0 +1,15 @@
+.detail {
+  padding: 0 20% 0 20%;
+}
+
+.detail-wrap {
+  border: black solid 1px;
+  margin: 10% 0 2% 0;
+  padding: 3%;
+}
+
+.detail-title {
+  text-align: center;
+  font-size: 2vw;
+  margin-bottom: 1vw;
+}
